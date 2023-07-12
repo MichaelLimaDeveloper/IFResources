@@ -1,0 +1,70 @@
+#header {
+    border-width: 5px;
+    border-style: solid;
+    border-color: #523312;
+    border-radius: 35px;
+    padding: 20px;
+    background-color: #86EB97;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 70px;
+}
+
+h1 {
+    font-size: 57px;
+    margin-bottom: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#interações {
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-bottom: 10%;
+    padding-right: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    flex: 1 1 auto;
+}
+
+#caixa {
+    border-width: 5px;
+    border-style: solid;
+    border-color: #523312;
+    border-radius: 35px;
+    padding: 20px;
+    background-color: #86EB97;
+    display: grid;
+    text-align: center;
+    width: 235px;
+}
+
+#rodape {
+    background-color: #383838;
+    flex: 0 1 40px;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-bottom: 3%;
+    padding-right: 5%;
+    color: rgb(165, 165, 165);
+    text-align: center;
+
+}
+
+#capa{
+    text-align: center;
+    font-size: 30px;
+}
+
+#cabeca{
+    border-width: 5px;
+    border-style: solid;
+    border-color: #523312;
+    border-radius: 35px;
+    padding: 20px;
+    background-color: #86EB97;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 70px;
+}
