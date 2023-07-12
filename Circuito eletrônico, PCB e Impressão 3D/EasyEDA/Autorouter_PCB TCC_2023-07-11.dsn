@@ -1,0 +1,268 @@
+(PCB ''
+  (resolution mil 1000)
+  (structure
+    (boundary(path signal 0 0 -327.5 0 0 261.5 0 261.5 -327.5 0 -327.5 )
+    )
+    (via via0
+    )
+    (grid via   0.25)
+    (grid wire   0.25)
+    (grid place   0.25)
+    (rule(clear 0.605))
+    (rule(clear 0.605 (type default_smd)))
+    (rule(clear 0.605 (type smd_smd)))
+    (rule(width 1.005))
+    (layer 1
+      (type signal)
+    )
+    (layer 2
+      (type signal)
+    )
+
+  )
+
+  (placement
+    (component u1
+      (place u1 0 0 front 0
+      )
+    )
+
+  )
+  (library
+    (image u1
+      (pin p37 37 119 -134.5)
+      (pin p37 55 119 -144.5)
+      (pin p37 73 119 -164.5)
+      (pin p37 91 119 -184.5)
+      (pin p37 109 119 -194.5)
+      (pin p37 127 119 -214.5)
+      (pin p37 145 119 -224.5)
+      (pin p37 163 119 -284.5)
+      (pin p37 181 119 -204.5)
+      (pin p37 199 119 -174.5)
+      (pin p37 217 119 -154.5)
+      (pin p37 235 119 -124.5)
+      (pin p37 271 119 -234.5)
+      (pin p37 289 119 -244.5)
+      (pin p37 307 119 -254.5)
+      (pin p37 325 119 -264.5)
+      (pin p37 343 119 -274.5)
+      (pin p37 904 179 -274.5)
+      (pin p37 907 179 -264.5)
+      (pin p37 910 179 -254.5)
+      (pin p37 913 179 -244.5)
+      (pin p37 916 179 -234.5)
+      (pin p37 919 179 -124.5)
+      (pin p37 922 179 -154.5)
+      (pin p37 925 179 -174.5)
+      (pin p37 928 179 -204.5)
+      (pin p37 931 179 -284.5)
+      (pin p37 934 179 -224.5)
+      (pin p37 937 179 -214.5)
+      (pin p37 940 179 -194.5)
+      (pin p37 943 179 -184.5)
+      (pin p37 946 179 -164.5)
+      (pin p37 949 179 -144.5)
+      (pin p37 952 179 -134.5)
+      (pin p37 1243 179 -294.5)
+      (pin p37 1261 119 -294.5)
+      (pin p37 1324 44 -98)
+      (pin p37 1327 44 -108)
+      (pin p37 1330 44 -88)
+      (pin p37 1378 44 -245.5)
+      (pin p37 1381 44 -255.5)
+      (pin p37 1384 44 -235.5)
+      (pin p37 1477 179 -59)
+      (pin p37 1480 179 -79)
+      (pin p37 1483 179 -69)
+      (pin p37 1531 179 -29)
+      (pin p37 1534 179 -49)
+      (pin p37 1537 179 -39)
+    )
+
+    (padstack via0
+      (shape(circle 1 2.4))
+      (shape(circle 2 2.4))
+    )
+
+    (padstack p37
+      (shape(circle 1 6 0 0))
+      (shape(circle 2 6 0 0))
+    )
+  )
+  (network
+    (net DATA1
+      (pins u1-37 u1-1330)
+    )
+    (net 3VE
+      (pins u1-163 u1-1324 u1-1378)
+    )
+    (net DATA2
+      (pins u1-199 u1-1384)
+    )
+    (net N4
+      (pins u1-925 u1-1477)
+    )
+    (net N1
+      (pins u1-928 u1-1531)
+    )
+    (net VCCD
+      (pins u1-931 u1-1480)
+    )
+    (net N2
+      (pins u1-940 u1-1537)
+    )
+    (net N3
+      (pins u1-943 u1-1534)
+    )
+    (net GNDD
+      (pins u1-1243 u1-1483)
+    )
+    (net GNDE
+      (pins u1-1261 u1-1327 u1-1381)
+    )
+    (class DATA1 DATA1
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class 3VE 3VE
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class DATA2 DATA2
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class N4 N4
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class N1 N1
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class VCCD VCCD
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class N2 N2
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class N3 N3
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class GNDD GNDD
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class GNDE GNDE
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+
+  )
+
+   (wiring
+    (wire(path 1 1 179 -204.5 192 -204.5 232 -164.5 232 -69.5 191.5 -29 179 -29 )
+      (net N1)
+      (type protect)
+    )
+    (wire(path 1 1 179 -39 192 -39 222 -69.5 222 -164.5 192 -194.5 179 -194.5 )
+      (net N2)
+      (type protect)
+    )
+    (wire(path 1 1 179 -184.5 192 -184.5 212 -164.5 212 -69.5 192 -49 179 -49 )
+      (net N3)
+      (type protect)
+    )
+    (wire(path 1 1 179 -59 192 -59 202 -69.5 202 -164.5 192 -174.5 179 -174.5 )
+      (net N4)
+      (type protect)
+    )
+    (wire(path 1 1 179 -79 166 -92 166 -271.5 179 -284.5 )
+      (net VCCD)
+      (type protect)
+    )
+    (wire(path 1 1 179 -69 156 -92 156 -271.5 179 -294.5 )
+      (net GNDD)
+      (type protect)
+    )
+    (wire(path 1 1 44 -108 27.5 -124.5 27.5 -239 44 -255.5 )
+      (net GNDE)
+      (type protect)
+    )
+    (wire(path 1 1 44 -255.5 83 -294.5 119 -294.5 )
+      (net GNDE)
+      (type protect)
+    )
+    (wire(path 1 1 44 -245.5 83 -284.5 119 -284.5 )
+      (net 3VE)
+      (type protect)
+    )
+    (wire(path 1 1 44 -98 54 -108 37.5 -124.5 37.5 -239 44 -245.5 )
+      (net 3VE)
+      (type protect)
+    )
+    (wire(path 1 1 44 -88 72.5 -88 119 -134.5 )
+      (net DATA1)
+      (type protect)
+    )
+    (wire(path 1 1 44 -235.5 58 -235.5 119 -174.5 )
+      (net DATA2)
+      (type protect)
+    )
+    )
+
+)
