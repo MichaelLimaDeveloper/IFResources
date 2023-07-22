@@ -11,7 +11,7 @@
 
 //Definindo a Rede que o equipamento vai ser conectada
 #define NET_SSID "LABProv"
-#define NET_PASSWORD "laboprov1"
+#define NET_PASSWORD "labprov1"
 
 //Definindo os parâmetros do protocolo MQTT como ID, Broker, Porta e os Tópicos
 #define MQTT_ID "ifresources-tcc-lora32"
