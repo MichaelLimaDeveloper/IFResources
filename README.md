@@ -1,5 +1,5 @@
 # IFResources
-Controle e Monitoramento de Temperatura e Recursos Hídricos
+Controle e Monitoramento de Temperatura e Recursos Hídricos.
 
 ## Objetivo
 Este repositório foi criado para a publicação dos códigos, documentos e outros arquivos utilizados para a apresentação na disciplina de Projeto Final lecionada por Prof. Dr. Alexandre Domingues Gonçalvez e para a obtenção do grau de Técnico em Informática.
